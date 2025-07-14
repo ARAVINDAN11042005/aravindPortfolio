@@ -33,15 +33,6 @@ const Hero = () => {
             Artificial Intelligence and Machine Learning.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button variant="hero" size="lg" className="animate-scale-in">
-              <Mail className="mr-2 h-5 w-5" />
-              Get In Touch
-            </Button>
-            <Button variant="glow" size="lg" className="animate-scale-in">
-              View My Work
-            </Button>
-          </div>
           
           {/* Social Links */}
           <div className="flex items-center justify-center gap-6 mb-16">
@@ -52,13 +43,13 @@ const Hero = () => {
               <Mail className="h-6 w-6" />
             </a>
             <a 
-              href="#"
+              href="https://github.com/ARAVINDAN11042005"
               className="p-3 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
             >
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="#"
+              href="https://www.linkedin.com/in/aravindan-r-864167268/"
               className="p-3 rounded-full bg-primary/10 hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
             >
               <Linkedin className="h-6 w-6" />

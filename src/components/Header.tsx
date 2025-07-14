@@ -33,9 +33,7 @@ const Header = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </a>
             ))}
-            <Button variant="hero" size="sm">
-              Download CV
-            </Button>
+            
           </nav>
 
           {/* Mobile Menu Button */}
@@ -62,9 +60,6 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="hero" size="sm" className="mt-4">
-              Download CV
-            </Button>
           </nav>
         )}
       </div>

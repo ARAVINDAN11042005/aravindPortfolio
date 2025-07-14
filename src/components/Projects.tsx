@@ -103,7 +103,7 @@ const Projects = () => {
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="flex gap-3 pt-4">
+                  {/* <div className="flex gap-3 pt-4">
                     <Button variant="outline" size="sm" className="flex-1">
                       <Github className="mr-2 h-4 w-4" />
                       Code
@@ -112,7 +112,7 @@ const Projects = () => {
                       <ExternalLink className="mr-2 h-4 w-4" />
                       Demo
                     </Button>
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             );
